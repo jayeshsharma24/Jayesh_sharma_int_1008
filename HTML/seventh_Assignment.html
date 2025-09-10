@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms in HTML</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(155, 208, 233);
+    }
+    .heading {
+        font-size: 20px;
+        width: 50%;
+        height: 40px;
+        color: aliceblue;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        border-radius: 15px;
+        margin: 10px;
+    }
+fieldset {
+    margin: 15px;
+}
+
+
+    .RegistrationForm {
+
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        /* display: flex; */
+        /* align-items: center; */
+        justify-content: center;
+        border-radius: 20px;
+        /* padding: 20px;  */
+        
+
+    }
+    .RegistrationForm input {
+        border-radius: 5px;
+        height: 25px;
+
+    }
+
+    .BasicInput1 {
+        border-radius: 10px;
+        background-color: rgb(236, 243, 243);
+    }
+
+    .BasicInput1 div {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .ContactInfo {
+        border-radius: 10px;
+        /* background-color: azure; */
+        background-color: rgb(236, 243, 243);
+    }
+
+    .ContactInfo div {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .SectionInput {
+        border-radius: 10px;
+        /* background-color: azure; */
+        background-color: rgb(236, 243, 243);
+    }
+
+    .SectionInput div {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .AdvanceInputs {
+        border-radius: 10px;
+        /* background-color: azure; */
+        background-color: rgb(236, 243, 243);
+    }
+
+    .AdvanceInputs div {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .TextInputs{
+        border-radius: 10px;
+        /* background-color: azure; */
+        background-color: rgb(236, 243, 243);
+    }
+
+    .TextInputs div {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .HiddenField {
+        border-radius: 10px;
+        /* background-color: azure; */
+        background-color: rgb(236, 243, 243);
+    }
+    .HiddenField div {
+         display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .ControlButton {
+        border-radius: 10px;
+        /* background-color: azure; */
+        background-color: rgb(236, 243, 243);
+    }
+    .ControlButton div {
+         display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <div class="heading">
+        <p >Complete Profile Form</p>
+    </div>
+    <div class="RegistrationForm">
+        <form action="submit" method="post">
+
+                <fieldset class="BasicInput1">
+                    <legend>1. Basic Inputs :</legend>
+                    <div>
+                        <label for="full_name">Full Name :</label>
+                        <input type="text" name="full_name" required placeholder="Enter Your Full name ...">
+                    </div>
+
+                    <div>
+                        <label for="Email">Email :</label>
+                        <input type="email" name="Email" id="Email">
+                    </div>
+
+                    <div>
+                        <label for="Password">Password :</label>
+                        <input type="password" name="Password" id="Password">
+
+                    </div>
+
+                    <div>
+                        <label for="confirmPassword">Confirm Password :</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword">
+                    </div>
+
+                </fieldset>
+                <fieldset class="ContactInfo">
+                    <legend>
+                        2. Contact Information :
+                    </legend>
+
+                    <div>
+                        <label for="PhoneNumber">Phone Number :</label>
+                        <input type="number" name="PhoneNumber" id="PhoneNumber">
+                    </div>
+
+                    <div>
+                        <label for="websiteURL">Website/Portfolio :</label>
+                        <input type="url" name="websiteURL" id="websiteURL">
+                    </div>
+
+                    <div>
+                        <label for="profile/Resume">Profile/Resume :</label>
+                        <input type="file" name="profile/Resume" id="profile">
+                    </div>
+
+                </fieldset>
+                <fieldset class="SectionInput">
+                    <legend>3. Selection Inputs :</legend>
+                    <div>
+                        <label for="gender">Gender :</label>
+                        <input type="radio" name="gender" id="male">Male
+                        <input type="radio" name="gender" id="female">Female
+
+                    </div>
+                    <div>
+                        <label for="Skills">Skills</label>
+                        <input type="checkbox" name="skills" id="HTML">HTML
+                        <input type="checkbox" name="skills" , id="CSS">CSS
+                        <input type="checkbox" name="skills" id="Javascript">Javascript
+                        <input type="checkbox" name="skills" , id="React">React
+                        <input type="checkbox" name="skills" , id="Angular">Angular
+                    </div>
+
+                    <div>
+                        <label for="Location">Location :</label>
+                        <select name="Location" id="location">
+                            <option value="vado">Vadodara</option>
+                            <option value="Ahme">Ahmedabad</option>
+                            <option value="Sur">Surat</option>
+                            <option value="Vapi">Vapi</option>
+                        </select>
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="AdvanceInputs">
+                    <legend>4. Advanced Inputs :</legend>
+
+
+                    <div>
+                        <label for="dob">Date of Birth :</label>
+                        <input type="date" name="dob" id="date_of_birth">
+                    </div>
+
+                    <div>
+                        <label for="week"> Week :</label>
+                        <input type="week" name="week" id="week">
+                    </div>
+
+                    <div>
+                        <label for="Month">Month :</label>
+                        <input type="month">
+                    </div>
+
+                    <div>
+                        <label for="time">Time :</label>
+                        <input type="time">
+                    </div>
+
+                    <div>
+                        <label for="Date_Time">Date & Time :</label>
+                        <input type="datetime-local" name="Date_Time" id="datetime">
+                    </div>
+
+                    <div>
+                        <label for="colour">Colour :</label>
+                        <input type="color">
+                    </div>
+
+                    <div>
+                        <label for="age">Age</label>
+                        <input type="number" checked min="1" max="50">
+                    </div>
+
+                    <div>
+                        <label for="Exp">Experiance Range :</label>
+                        <input type="range">
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="TextInputs">
+                    <legend>5. Text Inputs :</legend>
+                    <div>
+                        <label for="A" >About Yourself</label>
+                        <textarea type="textarea" id="about" rows="4" placeholder="Write About Yourself..."> </textarea>
+                    </div>
+
+                    <div>
+                        <label for="A">Adress :</label>
+                        <textarea type="textarea" id="about" placeholder="Your Address..."> </textarea>
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="HiddenField">
+                    <legend>Hidden Field :</legend>
+                    <div>
+                        <label for="Hidden">Hidden :</label>
+                        <input type="hidden" name="Hidden">
+                    </div>
+
+                </fieldset>
+
+
+                <fieldset class="ControlButton">
+                    <legend>8. Other Controls :</legend>
+                    <div>
+                        <button type="submit" style=" background-color: blue; color: aliceblue;">Create Profile</button>
+                    </div>
+                    <div>
+                        <button type="reset" style="color: red;">Clear Form</button>
+                    </div>
+
+                </fieldset>
+
+
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
