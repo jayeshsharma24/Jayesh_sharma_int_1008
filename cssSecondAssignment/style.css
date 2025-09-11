@@ -1,0 +1,93 @@
+body {
+    /* background-color: rgb(230, 250, 252);
+     */
+     background-image: url("./image.jpg");
+}
+
+.parentPara {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.javaimage:hover {
+    transition: transform 0.3s ease;
+    /* transform: scale(1.2);
+     */
+     filter: blur(0.5px);
+}
+
+
+
+.cakeimage:hover {
+    transition: transform 0.3s ease;
+    filter: blur(0.5px);
+}
+
+.para1 {
+    border: 2px solid black;
+    width: 20%;
+    height: 150px;
+    margin: 10px 10px;
+
+    overflow: hidden;
+
+
+}
+
+.para2 {
+    border: 2px solid black;
+    width: 500px;
+    height: 250px margin: 10px;
+    overflow: scroll;
+    margin: 10px 10px;
+}
+
+.para3 {
+    border: 2px solid black;
+    /* width: 20%;
+    margin: 10px; */
+    width: 250px;
+    height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 10px 10px;
+
+}
+
+.para4 {
+    border: 2px solid black;
+    width: 20%;
+    margin: 10px 10px;
+    overflow-x: auto;
+    /* overflow-y: hidden; */
+}
+
+.para5 {
+    border: 2px solid black;
+    width: 150px;
+    height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 10px 10px;
+
+}
+
+.para6 {
+    border: 2px solid black;
+    width: 130px;
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    margin: 10px 10px;
+}
+
+.para7 {
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px;
+
+}

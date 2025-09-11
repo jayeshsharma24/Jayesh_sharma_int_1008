@@ -1,0 +1,33 @@
+.Outerdiv{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10PX;
+}
+
+.firstdiv{
+/* border: 2px solid rgb(122, 205, 237); */
+    border-bottom: 5px double blue;
+    border-radius: 16px;
+    margin:10px;
+    /* border-style-bottom: double; */
+     
+
+}
+.secondDiv{
+border: 2px solid rgb(0, 0, 0);
+    padding: 10PX;
+    outline: 3px solid rgb(239, 98, 122);
+    outline-offset: -10px;
+    outline-style: dashed;
+
+}
+.secondfirst{
+border: 2px solid rgb(230, 222, 10);
+    margin: 10px;
+    
+}
+.secondsecond{
+border: 2px solid rgb(230, 222, 10);
+    
+    margin: 10px;
+}

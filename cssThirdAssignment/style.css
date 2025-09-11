@@ -1,0 +1,18 @@
+.firstimage {
+    height: 200px;
+    width: 400px;
+}
+
+.secondimage {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: -1;
+    height: 200px;
+    width: 400px;
+}
+.text{
+    position: relative;
+    left :100px;
+    font-weight:bolder;
+}

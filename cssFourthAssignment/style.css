@@ -1,0 +1,47 @@
+.box1{
+        border: 2px solid black;
+        height: 150px;
+        width: 150px;
+        background-color: pink;
+        transform: skewx(40deg);
+        position: absolute;
+        left: 80%;
+}
+.box2{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: beige;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.box3{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    transform: scalex(3);
+    position: fixed;
+    top: 70%;
+    left: 70%;
+
+}
+.box4{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+    transform: scaleY(2);
+}
+.box5{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: chartreuse;
+    transform: scale(1.5);
+    position: sticky;
+    top: 100px;
+    left: 25%;
+}
