@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    
+}
+.navbar{
+    background-color: black;
+    height: 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.Nav2{
+    display: flex;
+    gap: 15px;
+    /* height: 250px; */
+}
+.Nav2 :hover{
+    color:burlywood;
+    cursor: pointer;
+}
+.Body1{
+    height:40vh;
+    background-image: url(./background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.Body1 h2{
+    color: rgb(255, 255, 255); 
+    font-size: 30px;
+}
+
+ .button{
+    background-color: rgb(239, 154, 93);
+    color: white; 
+    padding: 8px;
+    cursor: pointer;
+      transition: background-color 0.3s ease;
+ }
+ .button:hover {
+    background-color: rgb(235, 196, 136);
+ }
+.body2{
+    height:30vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+}
+.body2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    border: 2px solid rgb(239, 233, 233);
+    height: 20vh;
+    width: 30vw;
+    
+}
+.body2 :hover{
+    /* color: red; */
+    transform: scale(1.05);
+    cursor: pointer;
+    transition:0.3s ease ;
+    box-shadow: 1px 1px 1px 1px rgb(231, 228, 228);
+   
+    
+}
+
+.body3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-wrap:10px ;
+}
+.body3 h3{
+    font-size: 30px;
+    color: rgb(29, 27, 27);
+}
+
+.body4 img{
+    height: 40px;
+    position: relative;
+    z-index: 1px;
+    position: fixed;
+    right: 15px;
+    bottom: 25px;
+}
+
+footer{
+    background-color: black;
+    height: 5vh;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
